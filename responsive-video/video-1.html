@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to Responsive Web Design - Video Player</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="back-link">&larr; Back to Gallery</a>
+      <nav aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="single-video-container">
+    <article class="video-player-section">
+      <h1 class="video-page-title">Introduction to Responsive Web Design</h1>
+      
+      <div class="player-wrapper">
+        <video controls poster="assets/images/video-1-frame1.jpg" preload="metadata">
+          <source src="assets/videos/video-1.mp4" type="video/mp4">
+          <track kind="captions" src="assets/captions/video-1.vtf" srclang="en" label="English Captions" default>
+          <p>Your browser does not support HTML5 video. You can <a href="assets/videos/video-1.mp4">download the MP4 video file</a> instead.</p>
+        </video>
+      </div>
+
+      <div class="video-details">
+        <h2>About this video</h2>
+        <p>This introductory tutorial covers the fundamental principles of responsive web development. You will learn how fluid layouts, flexible images, and media query breakpoints work together to build seamless cross-device experiences.</p>
+      </div>
+    </article>
+
+    <section class="comments-section">
+      <h2>Discussion & Comments</h2>
+      
+      <ul class="comment-list">
+        <li class="comment-item">
+          <img src="assets/images/avatar-1.svg" alt="Alex's Avatar" class="avatar-img">
+          <div class="comment-body">
+            <span class="comment-author">Alex Rivera</span>
+            <p class="comment-text">Great explanation of media queries! The demonstration of fluid grid breakpoints was super clear.</p>
+          </div>
+        </li>
+
+        <li class="comment-item">
+          <img src="assets/images/avatar-2.svg" alt="Sam's Avatar" class="avatar-img">
+          <div class="comment-body">
+            <span class="comment-author">Sam Taylor</span>
+            <p class="comment-text">The section on focus-visible states made a huge difference in how I approach keyboard accessibility.</p>
+          </div>
+        </li>
+
+        <li class="comment-item">
+          <img src="assets/images/avatar-3.svg" alt="Jordan's Avatar" class="avatar-img">
+          <div class="comment-body">
+            <span class="comment-author">Jordan Lee</span>
+            <p class="comment-text">Are we going to cover subgrid or modern CSS container queries in a future video?</p>
+          </div>
+        </li>
+
+        <li class="comment-item">
+          <img src="assets/images/avatar-4.svg" alt="Morgan's Avatar" class="avatar-img">
+          <div class="comment-body">
+            <span class="comment-author">Morgan Vance</span>
+            <p class="comment-text">Super helpful layout tips. Adding this to my reference bookmarks!</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Responsive Video Gallery. Built with Web Accessibility Standards.</p>
+  </footer>
+
+</body>
+</html>
