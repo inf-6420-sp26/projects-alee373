@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Video Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-container">
+      <h1>Media Gallery</h1>
+      <nav aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="gallery-container">
+    <section class="intro">
+      <h2>Featured Videos</h2>
+      <p>Explore our playlist of responsive multimedia content.</p>
+    </section>
+
+    <div class="video-grid">
+
+      <article class="video-card">
+        <a href="video-1.html" class="video-card-link">
+          <div class="thumbnail-wrapper">
+            <img src="assets/images/video-1-frame1.jpg" alt="Poster thumbnail for Video 1" class="thumbnail-img">
+            <img src="assets/images/video-icon.svg" alt="" class="video-icon" aria-hidden="true">
+          </div>
+          <div class="card-content">
+            <h3 class="video-title">Introduction to Responsive Web Design</h3>
+            <p class="video-desc">Learn how fluid grids and media queries adapt layouts across screen sizes.</p>
+          </div>
+        </a>
+      </article>
+
+      <article class="video-card">
+        <a href="video-2.html" class="video-card-link">
+          <div class="thumbnail-wrapper">
+            <img src="assets/images/video-2-frame1.jpg" alt="Poster thumbnail for Video 2" class="thumbnail-img">
+            <img src="assets/images/video-icon.svg" alt="" class="video-icon" aria-hidden="true">
+          </div>
+          <div class="card-content">
+            <h3 class="video-title">Mastering CSS Flexbox</h3>
+            <p class="video-desc">A deep dive into flex-wrap, alignment, and modern box layout strategies.</p>
+          </div>
+        </a>
+      </article>
+
+      <article class="video-card">
+        <a href="video-3.html" class="video-card-link">
+          <div class="thumbnail-wrapper">
+            <img src="assets/images/video-3-frame1.jpg" alt="Poster thumbnail for Video 3" class="thumbnail-img">
+            <img src="assets/images/video-icon.svg" alt="" class="video-icon" aria-hidden="true">
+          </div>
+          <div class="card-content">
+            <h3 class="video-title">Accessible Multimedia Standards</h3>
+            <p class="video-desc">Implementing WebVTT captions, focus states, and WCAG video compliance.</p>
+          </div>
+        </a>
+      </article>
+
+      <article class="video-card">
+        <a href="video-4.html" class="video-card-link">
+          <div class="thumbnail-wrapper">
+            <img src="assets/images/video-4-frame1.jpg" alt="Poster thumbnail for Video 4" class="thumbnail-img">
+            <img src="assets/images/video-icon.svg" alt="" class="video-icon" aria-hidden="true">
+          </div>
+          <div class="card-content">
+            <h3 class="video-title">HTML5 Video Architecture</h3>
+            <p class="video-desc">Understanding native controls, track options, and video fallbacks.</p>
+          </div>
+        </a>
+      </article>
+
+      <article class="video-card">
+        <a href="video-5.html" class="video-card-link">
+          <div class="thumbnail-wrapper">
+            <img src="assets/images/video-5-frame1.jpg" alt="Poster thumbnail for Video 5" class="thumbnail-img">
+            <img src="assets/images/video-icon.svg" alt="" class="video-icon" aria-hidden="true">
+          </div>
+          <div class="card-content">
+            <h3 class="video-title">Keyboard Navigation & UX</h3>
+            <p class="video-desc">Ensuring clean focus indicators across interactive web components.</p>
+          </div>
+        </a>
+      </article>
+
+      <article class="video-card">
+        <a href="video-6.html" class="video-card-link">
+          <div class="thumbnail-wrapper">
+            <img src="assets/images/video-6-frame1.jpg" alt="Poster thumbnail for Video 6" class="thumbnail-img">
+            <img src="assets/images/video-icon.svg" alt="" class="video-icon" aria-hidden="true">
+          </div>
+          <div class="card-content">
+            <h3 class="video-title">Advanced Breakpoints & Reflow</h3>
+            <p class="video-desc">Optimizing layout fluidities from tiny devices to wide desktop monitors.</p>
+          </div>
+        </a>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Responsive Video Gallery. Built with Web Accessibility Standards.</p>
+  </footer>
+
+</body>
+</html>
